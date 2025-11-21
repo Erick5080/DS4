@@ -1,0 +1,16 @@
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\bin\Debug\net8.0-windows\LABORATORIO 12.2.exe
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\bin\Debug\net8.0-windows\LABORATORIO 12.2.deps.json
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\bin\Debug\net8.0-windows\LABORATORIO 12.2.runtimeconfig.json
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\bin\Debug\net8.0-windows\LABORATORIO 12.2.dll
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\bin\Debug\net8.0-windows\LABORATORIO 12.2.pdb
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO_12._2.Form1.resources
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.csproj.GenerateResource.cache
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.AssemblyInfoInputs.cache
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.AssemblyInfo.cs
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.csproj.CoreCompileInputs.cache
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.dll
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\refint\LABORATORIO 12.2.dll
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.pdb
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\LABORATORIO 12.2.genruntimeconfig.cache
+C:\Users\erick\source\repos\DESIV\LABORATORIO 12.2\LABORATORIO 12.2\obj\Debug\net8.0-windows\ref\LABORATORIO 12.2.dll
