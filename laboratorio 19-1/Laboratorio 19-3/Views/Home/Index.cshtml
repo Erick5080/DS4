@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Laboratorio 19-3 - Obtener por ID";
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+
+<h3>Resultado del llamado a la API: /api/values/Get/2</h3>
+
+@if (!string.IsNullOrEmpty(ViewBag.Status))
+{
+    <h4>Valor Recibido:</h4>
+    <p>El valor del ID #2 es: <strong>@ViewBag.Value</strong></p>
+}
+else
+{
+    <p>No se pudo obtener el valor del ID #2.</p>
+}

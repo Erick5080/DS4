@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Laboratorio 19-2 - Consumo de API";
+    string[] values = ViewBag.Values as string[];
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+
+<h3>Resultado del llamado a la API: /@ViewBag.ApiEndpoint</h3>
+
+@if (values != null && values.Length > 0 && values[0] != "Error al llamar API")
+{
+    <h4>Valores Recibidos (ÉXITO):</h4>
+    <ul>
+        @foreach (var value in values)
+        {
+            <li>@value</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No se pudieron obtener los valores del API o la lista está vacía.</p>
+}
