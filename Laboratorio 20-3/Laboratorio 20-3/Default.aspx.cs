@@ -31,7 +31,7 @@ namespace Laboratorio_20_3
             btnNuevo.Enabled = !habilitarEdicion;
             btnGuardar.Enabled = habilitarEdicion;
             btnCancelar.Enabled = habilitarEdicion;
-            btnEliminar.Enabled = habilitarEdicion && !(bool)Session["esNuevo"]; // No se puede eliminar si es nuevo
+            btnEliminar.Enabled = habilitarEdicion && !(bool)Session["esNuevo"];
 
             tstId.Enabled = !habilitarEdicion;
             btnBuscar.Enabled = !habilitarEdicion;
@@ -87,14 +87,14 @@ namespace Laboratorio_20_3
 
                                 Session["esNuevo"] = false;
                                 HabilitarControles(true);
-                                btnEliminar.Enabled = true; // Habilitar eliminación
+                                btnEliminar.Enabled = true;
                                 lblMensaje.Text = "<p class='alert alert-success'>Registro encontrado.</p>";
                             }
                             else
                             {
                                LimpiarCampos();
                                 lblMensaje.Text = "<p class='alert alert-info'>Ningún registro encontrado con el Id ingresado.</p>";
-                                HabilitarControles(false); // Mantener en estado inicial
+                                HabilitarControles(false);
                             }
                         }
                     }
@@ -119,7 +119,7 @@ namespace Laboratorio_20_3
             }
             if (esNuevo)
             {
-                sql = "INSERT INTO LAPTOPS (Nombre, Precio, Stock) VALUES (@Nombre, @Precio, @Stock)"; // <-- Falta SCOPE_IDENTITY()
+                sql = "INSERT INTO LAPTOPS (Nombre, Precio, Stock) VALUES (@Nombre, @Precio, @Stock); SELECT SCOPE_IDENTITY()";
             }
             else
             {
@@ -150,7 +150,7 @@ namespace Laboratorio_20_3
                         {
                             int newId = Convert.ToInt32(result);
                             msg = $"Registro creado exitosamente. ID generado: {newId}";
-                            txtId.Text = newId.ToString(); // Mostrar el nuevo ID en el campo
+                            txtId.Text = newId.ToString();
                             success = true;
                         }
                         else

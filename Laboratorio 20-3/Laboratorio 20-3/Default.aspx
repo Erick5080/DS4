@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Gestión de Laptops" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Laboratorio_20_3._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Gestión de Productos (Laptops)</h2>
+    <h2>Gestión de Productos</h2>
     <hr />
 
     <div class="row">
